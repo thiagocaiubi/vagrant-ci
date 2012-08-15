@@ -58,7 +58,7 @@ Vagrant::Config.run do |config|
   #   puppet.manifests_path = "manifests"
   #   puppet.manifest_file  = "base.pp"
   # end
-  config.vm.provision :puppet, :options => "--verbose --debug"
+  config.vm.provision :puppet, :module_path => "modules", :options => "--verbose --debug"
 
   # Enable provisioning with chef solo, specifying a cookbooks path, roles
   # path, and data_bags path (all relative to this Vagrantfile), and adding 
