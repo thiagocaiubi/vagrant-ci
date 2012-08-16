@@ -1,3 +1,15 @@
 [submodule "modules/git"]
 	path = modules/git
 	url = git://github.com/uggedal/puppet-module-git.git
+[submodule "modules/maven"]
+	path = modules/maven
+	url = git://github.com/maestrodev/puppet-maven.git
+[submodule "modules/wget"]
+	path = modules/wget
+	url = git://github.com/maestrodev/puppet-wget.git
+[submodule "modules/java"]
+	path = modules/java
+	url = git://github.com/puppetlabs/puppetlabs-java.git
+[submodule "modules/stdlib"]
+	path = modules/stdlib
+	url = git://github.com/puppetlabs/puppetlabs-stdlib.git
