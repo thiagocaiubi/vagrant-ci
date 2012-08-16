@@ -29,7 +29,7 @@ Welcome to your new virtual machine
 
 	vagrant@precise64:~$
 
-## What is int it?
+## What is inside this box?
 
 The following packages are available by Puppet:
 	
