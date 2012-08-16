@@ -3,9 +3,9 @@
 
 ## What?
 
-A virtual machine using running an Ubuntu Precise 64 bits provided by Vagrant.
+A virtual machine running an [Ubuntu](http://www.ubuntu.com/) Precise 64 bits provided by Vagrant.
 
-## Requirements
+## Requirements:
 	
 1. [Vagrant](http://vagrantup.com/)
 2. [Puppet](http://puppetlabs.com/)
@@ -34,6 +34,6 @@ The following packages are available by provisioner Puppet:
 3. [wget](github.com/maestrodev/puppet-wget.git)
 4. [maven](github.com/maestrodev/puppet-maven.git)
 
-## Contribute
+## Contribute:
 
 Fork, hack and pull request!
