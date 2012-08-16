@@ -3,7 +3,7 @@
 
 ## What?
 
-A virtual machine running an [Ubuntu](http://www.ubuntu.com/) Precise 64 bits provided by Vagrant.
+Continuous Integration environment running on [Ubuntu](http://www.ubuntu.com/) Precise 64 bits provided by Vagrant.
 
 ## Requirements:
 	
