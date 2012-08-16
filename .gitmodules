@@ -16,3 +16,6 @@
 [submodule "modules/sonar"]
 	path = modules/sonar
 	url = git://github.com/maestrodev/puppet-sonar.git
+[submodule "modules/unzip"]
+	path = modules/unzip
+	url = git://github.com/duritong/puppet-unzip.git
