@@ -33,10 +33,10 @@ Welcome to your new virtual machine
 
 The following packages are available by Puppet:
 	
-1. [git](github.com/uggedal/puppet-module-git.git)
-2. [java](github.com/puppetlabs/puppetlabs-java.git)
-3. [wget](github.com/maestrodev/puppet-wget.git)
-4. [maven](github.com/maestrodev/puppet-maven.git)
+1. [git](http://github.com/uggedal/puppet-module-git.git)
+2. [java](http://github.com/puppetlabs/puppetlabs-java.git)
+3. [wget](http://github.com/maestrodev/puppet-wget.git)
+4. [maven](http://github.com/maestrodev/puppet-maven.git)
 
 ## Contribute:
 
