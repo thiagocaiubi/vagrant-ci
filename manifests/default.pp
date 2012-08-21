@@ -4,14 +4,15 @@ exec { 'apt-get update':
 
 class { 'git::client': }
 
+class { 'unzip': } ->
 class { 'java':
 	distribution => 'jdk',
 	version      => 'latest',
 } ->
-class { 'maven::maven':
+class { 'maven::maven' : 
 	version => '3.0.4',
 } ->
-class { 'unzip': } ->
-class { 'sonar':
-	version => '3.2'
+class { 'sonar' :
+	version      => '3.2',
+	arch         => 'linux-x86-64',
 }
